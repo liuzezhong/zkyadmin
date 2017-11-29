@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<include file="Page/header" />
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+    <include file="Page/nav" />
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                赛事信息列表
+                <small>管理中心</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> 赛事管理</a></li>
+                <li class="active">赛事列表</li>
+            </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">赛事信息表</h3>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <th class="text-center">赛事名称</th>
+                                    <th class="text-center">赛事类型</th>
+                                    <th class="text-center">总人数</th>
+                                    <th class="text-center">主办方</th>
+                                    <th class="text-center">承办方</th>
+                                    <th class="text-center">负责人</th>
+                                    <th class="text-center">手机号</th>
+                                    <th class="text-center">比赛时间</th>
+                                    <th class="text-center">报名截止</th>
+                                    <th class="text-center">发布人</th>
+                                    <th class="text-center">发布时间</th>
+                                    <th class="text-center">赛事状态</th>
+                                    <th class="text-center">操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="matchs" id="match">
+                                    <tr>
+                                        <td class="text-center">{$match.match_title}</td>
+                                        <td class="text-center">{$match.event_name}</td>
+                                        <td class="text-center">{$match.headcount}</td>
+                                        <td class="text-center">{$match.sponsor}</td>
+                                        <td class="text-center">{$match.undertake}</td>
+                                        <td class="text-center">{$match.leader}</td>
+                                        <td class="text-center">{$match.leader_tel}</td>
+                                        <td class="text-center">{$match.match_stime}</td>
+                                        <td class="text-center">{$match.enrol_etime}</td>
+                                        <td class="text-center">{$match.user_name}</td>
+                                        <td class="text-center">{$match.gmt_create}</td>
+                                        <td class="text-center">
+                                            <if condition="$match.is_finish eq 0">
+                                                <span class="label label-warning" id="change-status" attr-id="{$match.match_id}" attr-status="{$match.is_finish}" attr-m="admin" attr-c="match" attr-a="changeStatus">进行中</span>
+                                                <elseif condition="$match.is_finish eq 1"/>
+                                                <span class="label label-success" id="change-status" attr-id="{$match.match_id}" attr-status="{$match.is_finish}" attr-m="admin" attr-c="match" attr-a="changeStatus">已结束</span>
+                                                <elseif condition="$match.is_finish eq 2"/>
+                                                <span class="label label-danger">冻结中</span>
+                                            </if>
+                                        </td>
+                                        <td class="text-center">
+                                            <span id="edit-info" attr-id="{$match.match_id}" attr-m="admin" attr-c="match" attr-a="edit" attr-name="match_id">
+                                                <i class="fa fa-edit fa-fw"></i>
+                                            </span>
+                                            <span id="delete-info" attr-id="{$match.match_id}" attr-name="{$match.match_title}" attr-m="admin" attr-c="match" attr-a="deleteMatch">
+                                                <i class="fa fa-trash-o fa-fw"></i>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </volist>
+                                </tfoot>
+                            </table>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                </div>
+                <!-- /.col -->
+            </div>
+
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    <include file="Page/sidebar" />
+</div>
+<!-- ./wrapper -->
+<include file="Page/footer" />
+</body>
+</html>

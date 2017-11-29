@@ -1,0 +1,2498 @@
+[ 2017-11-18T11:04:31+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=loginOut
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+
+[ 2017-11-18T11:04:31+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-11-18T11:04:33+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=loginCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `email` = 'zhongliuze@gmail.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-18T11:04:34+08:00 ] 127.0.0.1 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: avatarUrl /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 84 行.
+NOTIC: [8] Undefined index: avatarUrl /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 91 行.
+NOTIC: [8] Undefined index: avatarUrl /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-11-18T11:04:57+08:00 ] 127.0.0.1 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: avatarUrl /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 91 行.
+NOTIC: [8] Undefined index: avatarUrl /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2017-11-18T11:05:06+08:00 ] 127.0.0.1 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2017-11-18T11:10:00+08:00 ] 127.0.0.1 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2017-11-18T11:10:05+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-11-18T11:10:06+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-11-18T11:10:43+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-11-18T11:11:11+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-11-18T11:11:27+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-11-18T11:17:37+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-11-18T11:17:39+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-11-18T11:17:41+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2017-11-18T11:17:46+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-11-18T11:17:58+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-11-18T11:18:00+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-11-18T11:18:30+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-11-18T11:18:32+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-11-18T11:18:35+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-11-18T11:18:36+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-11-18T11:18:53+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-11-18T11:18:55+08:00 ] 127.0.0.1 /index.php?m=admin&c=payrecord&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2017-11-18T11:18:57+08:00 ] 127.0.0.1 /index.php?m=admin&c=payrecord&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2017-11-18T11:19:00+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-11-18T11:19:19+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-11-18T11:19:22+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-11-18T11:19:24+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-11-18T11:19:25+08:00 ] 127.0.0.1 /index.php?m=admin&c=payrecord&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-11-18T11:19:27+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-11-18T11:19:36+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2017-11-18T11:19:38+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2017-11-18T11:19:40+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-11-18T11:20:17+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-11-18T11:20:22+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2017-11-18T11:20:24+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-11-18T11:20:26+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-11-18T11:20:28+08:00 ] 127.0.0.1 /index.php?m=admin&c=payrecord&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-11-18T11:21:04+08:00 ] 127.0.0.1 /index.php?m=admin&c=payrecord&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-11-18T11:21:07+08:00 ] 127.0.0.1 /index.php?m=admin&c=payrecord&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-11-18T11:21:08+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2017-11-18T11:21:09+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-11-18T11:24:55+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-11-18T11:24:58+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-11-18T11:25:08+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-11-18T11:25:09+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2017-11-18T11:25:32+08:00 ] 127.0.0.1 /index.php?m=admin&c=team&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/54987056b783d0941793fefa50915f61.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/54987056b783d0941793fefa50915f61.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-11-18T11:26:49+08:00 ] 127.0.0.1 /index.php?m=admin&c=user&a=wxuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/af0c380af4c90dbcd8ac4bb003f54248.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/af0c380af4c90dbcd8ac4bb003f54248.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-11-18T11:28:23+08:00 ] 127.0.0.1 /index.php?m=admin&c=user&a=wxuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/af0c380af4c90dbcd8ac4bb003f54248.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/af0c380af4c90dbcd8ac4bb003f54248.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-11-18T11:28:25+08:00 ] 127.0.0.1 /index.php?m=admin&c=user&a=scanuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/6d76647044d99aeb6e07ad150df27dc9.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/6d76647044d99aeb6e07ad150df27dc9.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-11-18T11:28:27+08:00 ] 127.0.0.1 /index.php?m=admin&c=other&a=category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/eb43750ecc3619c728fc47705406ac2b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/eb43750ecc3619c728fc47705406ac2b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000235s ]
+
+[ 2017-11-18T11:28:28+08:00 ] 127.0.0.1 /index.php?m=admin&c=other&a=category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/eb43750ecc3619c728fc47705406ac2b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/eb43750ecc3619c728fc47705406ac2b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-11-18T11:28:46+08:00 ] 127.0.0.1 /index.php?m=admin&c=other&a=category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/eb43750ecc3619c728fc47705406ac2b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/eb43750ecc3619c728fc47705406ac2b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2017-11-18T11:28:48+08:00 ] 127.0.0.1 /index.php?m=admin&c=other&a=event
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/d871af3df3f4c2e10271bd7b239103b1.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/d871af3df3f4c2e10271bd7b239103b1.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-11-18T11:28:49+08:00 ] 127.0.0.1 /index.php?m=admin&c=other&a=category
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/eb43750ecc3619c728fc47705406ac2b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/eb43750ecc3619c728fc47705406ac2b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2017-11-18T11:28:50+08:00 ] 127.0.0.1 /index.php?m=admin&c=other&a=image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/a8104906c7e97ca36fca0cc0f50d0541.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/a8104906c7e97ca36fca0cc0f50d0541.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-11-18T11:28:52+08:00 ] 127.0.0.1 /index.php?m=admin&c=user&a=wxuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/af0c380af4c90dbcd8ac4bb003f54248.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/af0c380af4c90dbcd8ac4bb003f54248.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-11-18T11:28:52+08:00 ] 127.0.0.1 /index.php?m=admin&c=user&a=scanuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/6d76647044d99aeb6e07ad150df27dc9.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/6d76647044d99aeb6e07ad150df27dc9.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-11-18T11:28:53+08:00 ] 127.0.0.1 /index.php?m=admin&c=user&a=adminuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/470c6877b70bb295c771d5d55e1365da.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/470c6877b70bb295c771d5d55e1365da.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-11-18T11:28:54+08:00 ] 127.0.0.1 /index.php?m=admin&c=team&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/54987056b783d0941793fefa50915f61.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/54987056b783d0941793fefa50915f61.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-11-18T11:28:55+08:00 ] 127.0.0.1 /index.php?m=admin&c=team&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c70afd967bb7f3a30ca61ab1497a5e42.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c70afd967bb7f3a30ca61ab1497a5e42.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-11-18T11:28:55+08:00 ] 127.0.0.1 /index.php?m=admin&c=payrecord&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/ead761d77fefb6ddadcb899e6c482ed0.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-11-18T11:28:56+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-11-18T11:28:58+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-11-18T11:28:59+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-11-18T11:29:00+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-11-18T11:29:11+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2017-11-18T12:06:37+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0003s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2017-11-18T12:06:41+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0004s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2017-11-18T12:07:50+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0005s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-11-18T12:08:18+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0004s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-11-18T12:08:30+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: registers /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: this_match /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-11-18T12:08:43+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index&match_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_category` WHERE `category_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_team` WHERE `team_id` = 18 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_teamuser` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_teamuser` WHERE `team_id` = 18  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 322 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 331 行.
+NOTIC: [8] Undefined index: is_finish /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 337 行.
+NOTIC: [8] Undefined index: match_id /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 346 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 349 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 322 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 331 行.
+NOTIC: [8] Undefined index: is_finish /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 337 行.
+NOTIC: [8] Undefined index: match_id /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 346 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 349 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-11-18T12:08:49+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index&match_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 1  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: enrols /Work/wwwroot/zhongkaiyun.com/Application/Admin/Controller/EnrolController.class.php 第 119 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2017-11-18T12:08:52+08:00 ] 127.0.0.1 /index.php?m=admin&c=enrol&a=index&match_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_category` WHERE `category_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_team` WHERE `team_id` = 18 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_teamuser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_teamuser` WHERE `team_id` = 18  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 145 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 272 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 322 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 331 行.
+NOTIC: [8] Undefined index: is_finish /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 337 行.
+NOTIC: [8] Undefined index: match_id /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 346 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 349 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 322 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 331 行.
+NOTIC: [8] Undefined index: is_finish /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 337 行.
+NOTIC: [8] Undefined index: match_id /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 346 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/86627110c8ca69140a5552fd2d4f4219.php 第 349 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-11-18T12:09:05+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-11-18T12:09:08+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=edit&match_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/08128f39e1b95e9bf65669b9d9adad21.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/08128f39e1b95e9bf65669b9d9adad21.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2017-11-18T12:09:16+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_event` WHERE `status` <> 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/c3056cb56327dd05a105a4b34fd05d63.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000286s ]
+
+[ 2017-11-18T12:09:18+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-11-18T14:41:09+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0004s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-11-18T14:41:29+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0004s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-11-18T14:42:25+08:00 ] 127.0.0.1 /index.php?m=admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0007s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2017-11-18T14:42:35+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` <> -1 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/99ba06227d8083a8c99d12264b5e531b.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2017-11-18T15:24:10+08:00 ] 127.0.0.1 /index.php?m=admin&c=team&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/54987056b783d0941793fefa50915f61.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/54987056b783d0941793fefa50915f61.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2017-11-18T15:59:24+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-11-18T16:07:52+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-11-18T16:08:22+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-11-18T16:08:52+08:00 ] 127.0.0.1 /index.php?m=admin&c=match&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-11-18T16:08:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0004s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-11-18T16:08:52+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0003s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2017-11-18T16:08:54+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0005s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2017-11-18T16:08:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0003s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-11-18T16:09:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `zk_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_admin` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_match` WHERE `is_finish` = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_register` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_wxuser` WHERE `is_status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0005s ]
+SQL: SELECT SUM(total_fee) AS tp_sum FROM `zk_payrecords` WHERE `gmt_create` BETWEEN '2017-11-18 00:00:00' AND '2017-11-18 23:59:59' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+NOTIC: [8] Undefined variable: Think /Work/wwwroot/zhongkaiyun.com/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 145 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<include file="Page/header" />
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+    <include file="Page/nav" />
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                赛事报名信息
+                <small>列表详情</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> 报名信息</a></li>
+                <li class="active">报名信息</li>
+            </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+
+                <div class="col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body panel-body-footer">
+                            <form action="index.php" method="get">
+                                <input type="hidden" name="m" value="admin"/>
+                                <input type="hidden" name="c" value="enrol"/>
+                                <input type="hidden" name="a" value="index"/>
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <select class="form-control select2" style="width: 100%;" name="match_id">
+                                        <option selected="selected">请选择一项赛事</option>
+                                        <volist name="matchs" id="match">
+                                            <if condition="$match.selected eq 1">
+                                                <option value="{$match.match_id}" selected="selected">{$match.match_title}</option>
+                                                <else />
+                                                <option value="{$match.match_id}">{$match.match_title}</option>
+                                            </if>
+
+                                        </volist>
+                                    </select>
+                                </div>
+                                <!-- /.form-group -->
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-info"><i class="fa fa-search fa-fw"></i>查看已报名用户信息</button>
+
+                            </div>
+                            </form>
+                            <if condition="$enrols neq is_null()">
+                                <div class="col-md-2">
+                                    <button type="button" class="btn btn-default" id="export-enrol" match_id="{$this_match.match_id}"><i class="fa fa-file-excel-o fa-fw"></i>导出报名信息</button>
+                                </div>
+                            </if>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title">赛事名称：{$this_match.match_title}</h3>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <th class="text-center">参赛项目</th>
+                                    <th class="text-center">真实姓名</th>
+                                    <th class="text-center">性别</th>
+                                    <th class="text-center">身份证号</th>
+                                    <th class="text-center">手机号码</th>
+                                    <th class="text-center">参赛方式</th>
+                                    <th class="text-center">参赛费用</th>
+                                    <th class="text-center">支付记录</th>
+                                    <th class="text-center">签到码</th>
+                                    <th class="text-center">签到时间</th>
+
+                                    <th class="text-center">报名时间</th>
+                                    <th class="text-center">操作</th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="enrols" id="enrol">
+                                    <tr>
+                                        <td class="text-center">{$enrol.category_name}</td>
+                                        <td class="text-center">{$enrol.real_name}</td>
+                                        <td class="text-center">
+                                            <if condition="$enrol.real_sex eq 0">
+                                                未知
+                                                <elseif condition="$enrol.real_sex eq 1" />
+                                                男
+                                                <elseif condition="$enrol.real_sex eq 2" />
+                                                女
+                                            </if>
+                                        </td>
+                                        <td class="text-center">{$enrol.id_card}</td>
+                                        <td class="text-center">{$enrol.phone_number}</td>
+                                        <td class="text-center">
+                                            <if condition="$enrol.team_name neq is_null()">
+                                                {$enrol.team_name}队
+                                                <else />
+                                                个人参赛
+                                            </if>
+
+                                        </td>
+                                        <td class="text-center">{$enrol.money}元</td>
+                                        <td class="text-center"><button type="button" class="btn btn-default btn-xs">查看</button></td>
+                                        <td class="text-center"><a type="button" class="btn btn-default btn-xs" href="{$enrol.sign_qrcode}" target="_blank">查看</a></td>
+                                        <td class="text-center">
+                                            <if condition="$enrol.gmt_sign neq is_null()">
+                                                {$enrol.gmt_sign}
+                                                <else/>
+                                                <text class="text-danger">未签到</text>
+                                            </if>
+                                        </td>
+                                        <td class="text-center">{$enrol.gmt_create}</td>
+                                        <!--<td class="text-center">-->
+                                            <!--<if condition="$enrol.is_finish eq 0">-->
+                                                <!--<span class="label label-warning" id="change-status" attr-id="{$match.match_id}" attr-status="{$match.is_finish}" attr-m="admin" attr-c="match" attr-a="changeStatus">进行中</span>-->
+                                                <!--<elseif condition="$match.is_finish eq 1"/>-->
+                                                <!--<span class="label label-success" id="change-status" attr-id="{$match.match_id}" attr-status="{$match.is_finish}" attr-m="admin" attr-c="match" attr-a="changeStatus">已结束</span>-->
+                                                <!--<elseif condition="$match.is_finish eq 2"/>-->
+                                                <!--<span class="label label-danger">冻结中</span>-->
+                                            <!--</if>-->
+                                        <!--</td>-->
+                                        <td class="text-center">
+                                            <span id="customer-edit" customer-id="{$enrol.match_id}" data-toggle="modal" data-target="#editCustomerModal">
+                                                <i class="fa fa-edit fa-fw"></i>
+                                            </span>
+                                            <if condition="$enrol.team_name neq is_null()">
+                                                <span id="delete-info" attr-id="{$enrol.register_id}" attr-name="{$enrol.team_name}队" attr-m="admin" attr-c="enrol" attr-a="delete">
+                                                <i class="fa fa-trash-o fa-fw"></i>
+                                            </span>
+
+                                                <else />
+                                                <span id="delete-info" attr-id="{$enrol.register_id}" attr-name="{$enrol.real_name}" attr-m="admin" attr-c="enrol" attr-a="delete">
+                                                <i class="fa fa-trash-o fa-fw"></i>
+                                            </span>
+                                            </if>
+
+                                        </td>
+                                    </tr>
+                                </volist>
+                                </tfoot>
+                            </table>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                </div>
+                <!-- /.col -->
+            </div>
+
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    <include file="Page/sidebar" />
+</div>
+<!-- ./wrapper -->
+<include file="Page/footer" />
+</body>
+</html>

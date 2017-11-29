@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<include file="Page/header" />
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+    <include file="Page/nav" />
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                修改赛事信息
+                <small>编辑赛事</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> 赛事管理</a></li>
+                <li class="active">编辑赛事</li>
+            </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <!-- SELECT2 EXAMPLE -->
+            <div class="box box-default">
+                <div class="box-header">
+
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>赛事名称</label>
+                                <input type="text" class="form-control" name="match_title" placeholder="请输入赛事名称" value="{$match.match_title}">
+                            </div>
+                            <div class="form-group">
+                                <label>赛事主办方</label>
+                                <input type="text" class="form-control" name="sponsor" placeholder="请输入主办方名" value="{$match.sponsor}">
+                            </div>
+                            <div class="form-group">
+                                <label>赛事负责人</label>
+                                <input type="text" class="form-control" name="leader" placeholder="请输入负责人姓名" value="{$match.leader}">
+                            </div>
+                            <div class="form-group">
+                                <label>最大参赛人数</label>
+                                <input type="text" class="form-control" name="headcount" placeholder="请输入最多参赛人数" value="{$match.headcount}">
+                            </div>
+                            <div class="form-group">
+                                <label>比赛开始截止时间</label>
+                                <!--<input type="text" class="form-control pull-right" id="reservationtime">-->
+                                <input type="text" class="form-control" name="match_time" id="reservationtime" value="{$match.match_time}">
+                            </div>
+                            <!-- /.form-group -->
+                            <div class="form-group">
+                                <label>赛事规程</label>
+                                <textarea class="form-control" rows="3" placeholder="请输入详细的赛事规程" name="match_detail" >{$match.match_detail}</textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>比赛项目-报名费用-报名方式（格式如：男女混双-10-0,输入完回车,报名方式0为个人，1为团队）</label>
+                                <input type="text" class="form-control" value="{$match.category}" data-role="tagsinput" name="category"/>
+                            </div>
+                            <!-- /.form-group -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>赛事类型</label>
+                                <select class="form-control select2" style="width: 100%;" id="event_id">
+                                    <option value="0" selected="selected">请选择一个类型</option>
+                                    <volist name="events" id="event">
+                                        <if condition="$event.selected eq 1">
+                                            <option value="{$event.event_id}" selected="selected">{$event.name}</option>
+                                            <else />
+                                            <option value="{$event.event_id}">{$event.name}</option>
+                                        </if>
+
+                                    </volist>
+                                </select>
+                            </div>
+                            <!-- /.form-group -->
+                            <div class="form-group">
+                                <label>赛事承办方</label>
+                                <input type="text" class="form-control" name="undertake" placeholder="请输入承办名" value="{$match.undertake}">
+                            </div>
+                            <!-- /.form-group -->
+                            <div class="form-group">
+                                <label>负责人手机</label>
+                                <input type="text" class="form-control" name="leader_tel" placeholder="请输入负责人手机号码" value="{$match.leader_tel}">
+                            </div>
+                            <div class="form-group">
+                                <label>每人可报项数(0为无限制)</label>
+                                <input type="text" class="form-control" name="register_max" placeholder="请输入每人可报名项目，0为无限制" value="{$match.register_max}">
+                            </div>
+                            <div class="form-group">
+                                <label>报名开始截止时间</label>
+                                <input type="text" class="form-control" name="enrol_time" id="reservationtime2" value="{$match.enrol_time}">
+                            </div>
+                            <div class="form-group">
+                                <label>比赛地址</label>
+                                <textarea class="form-control" rows="3" placeholder="如：无锡市梁溪区运河西路222号" name="address">{$match.address}</textarea>
+                            </div>
+                            <div class="form-group">
+                                <samll class="text-danger">注：赛事图片请前往图片中心编辑</samll>
+                            </div>
+                            <input type="hidden" name="match_id" value="{$match.match_id}">
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.box-body -->
+                <div class="box-footer">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <button type="button" class="form-control btn btn-primary" id="eidt-match">修改赛事信息</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    <include file="Page/sidebar" />
+</div>
+<!-- ./wrapper -->
+<include file="Page/footer" />
+</body>
+</html>
